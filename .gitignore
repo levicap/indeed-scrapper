@@ -17,8 +17,10 @@ Thumbs.db
 # Environment files
 .env*
 
-# Output files
-*.json
-
 # TypeScript
 *.tsbuildinfo
+
+# Allow specific JSON files except the ones we want to ignore
+!*.json
+# Ignore specific JSON patterns if needed
+# *.log.json
